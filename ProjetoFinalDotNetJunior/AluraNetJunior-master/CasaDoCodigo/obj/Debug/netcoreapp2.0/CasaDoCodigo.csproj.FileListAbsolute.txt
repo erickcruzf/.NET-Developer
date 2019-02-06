@@ -1,0 +1,11 @@
+K:\ProgramData\Microsoft\VisualStudio\repos\AluraNetJunior-master\AluraNetJunior-master\CasaDoCodigo\bin\Debug\netcoreapp2.0\CasaDoCodigo.deps.json
+K:\ProgramData\Microsoft\VisualStudio\repos\AluraNetJunior-master\AluraNetJunior-master\CasaDoCodigo\bin\Debug\netcoreapp2.0\CasaDoCodigo.runtimeconfig.json
+K:\ProgramData\Microsoft\VisualStudio\repos\AluraNetJunior-master\AluraNetJunior-master\CasaDoCodigo\bin\Debug\netcoreapp2.0\CasaDoCodigo.runtimeconfig.dev.json
+K:\ProgramData\Microsoft\VisualStudio\repos\AluraNetJunior-master\AluraNetJunior-master\CasaDoCodigo\bin\Debug\netcoreapp2.0\CasaDoCodigo.dll
+K:\ProgramData\Microsoft\VisualStudio\repos\AluraNetJunior-master\AluraNetJunior-master\CasaDoCodigo\bin\Debug\netcoreapp2.0\CasaDoCodigo.pdb
+K:\ProgramData\Microsoft\VisualStudio\repos\AluraNetJunior-master\AluraNetJunior-master\CasaDoCodigo\obj\Debug\netcoreapp2.0\CasaDoCodigo.csproj.CoreCompileInputs.cache
+K:\ProgramData\Microsoft\VisualStudio\repos\AluraNetJunior-master\AluraNetJunior-master\CasaDoCodigo\obj\Debug\netcoreapp2.0\CasaDoCodigo.AssemblyInfoInputs.cache
+K:\ProgramData\Microsoft\VisualStudio\repos\AluraNetJunior-master\AluraNetJunior-master\CasaDoCodigo\obj\Debug\netcoreapp2.0\CasaDoCodigo.AssemblyInfo.cs
+K:\ProgramData\Microsoft\VisualStudio\repos\AluraNetJunior-master\AluraNetJunior-master\CasaDoCodigo\obj\Debug\netcoreapp2.0\CasaDoCodigo.dll
+K:\ProgramData\Microsoft\VisualStudio\repos\AluraNetJunior-master\AluraNetJunior-master\CasaDoCodigo\obj\Debug\netcoreapp2.0\CasaDoCodigo.pdb
+K:\ProgramData\Microsoft\VisualStudio\repos\AluraNetJunior-master\AluraNetJunior-master\CasaDoCodigo\obj\Debug\netcoreapp2.0\CasaDoCodigo.csprojAssemblyReference.cache
