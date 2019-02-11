@@ -1,31 +1,27 @@
 ﻿@{
-	ViewData["Title"] = "Carrossel";
+    ViewData["Title"] = "Carrossel";
 }
+@model CarrosselViewModel;
 
-@model List<Produto>;
+@{ var produtos = Model.Produtos; }
 
 <h3>Catálogo</h3>
-
 <div id="my-carousel" class="carousel slide" data-ride="carousel">
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
-
         @{
             const int TAMANHO_PAGINA = 4;
 
-            int paginas = (int)Math.Ceiling((double)Model.Count() / TAMANHO_PAGINA);
+            int paginas = (int)Math.Ceiling((double)produtos.Count() / TAMANHO_PAGINA);
         }
-
         @for (int pagina = 0; pagina < paginas; pagina++)
         {
 
             <div class="item @(pagina == 0 ? "active" : "")">
                 <div class="row">
-
                     @{
-                        var produtosDaPagina = Model.Skip(pagina * TAMANHO_PAGINA).Take(TAMANHO_PAGINA);
+                        var produtosDaPagina = produtos.Skip(pagina * TAMANHO_PAGINA).Take(TAMANHO_PAGINA);
                     }
-
                     @foreach (var produto in produtosDaPagina)
                     {
 
@@ -39,20 +35,18 @@
                                     <div><h4><strong>R$ @produto.Preco</strong></h4></div>
                                     <div class="text-center">
                                         <a asp-action="carrinho"
-										   asp-route-codigo="@produto.Codigo"
-										   class="btn btn-success">Adicionar</a>
+                                           asp-route-codigo="@produto.Codigo"
+                                           class="btn btn-success">Adicionar</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     }
-
                 </div>
             </div>
 
         }
     </div>
-
     <!-- Controls -->
     <a class="left carousel-control" href="#my-carousel" role="button" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
