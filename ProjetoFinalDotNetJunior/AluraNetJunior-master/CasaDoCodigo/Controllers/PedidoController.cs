@@ -33,9 +33,13 @@ namespace CasaDoCodigo.Controllers
             return View(novaViewModel);
         }
 
-        public IActionResult Carrossel()
+        public async Task<IActionResult> Carrossel(CarrosselViewModel viewModel)
         {
-            return View(produtoRepository.GetProdutos());
+            var produtos = await produtoRepository.GetProdutos();
+
+            CarrosselViewModel novaViewModel = new CarrosselViewModel(produtos);
+
+            return View(novaViewModel);
         }
 
         public async Task<IActionResult> Carrinho(string codigo)
